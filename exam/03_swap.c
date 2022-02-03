@@ -11,3 +11,26 @@
     두 변수의 값이 변경된 결과를 확인하시오.
 
 */
+
+#include <stdio.h>
+
+void swap(int *a, int *b) {
+    int temp = *a;
+    *a = *b;
+    *b = temp;
+}
+
+int main() {
+
+    int a = 10, b = 20;
+    printf("1\n");
+    printf("a = %d, b = %d\n", a, b);
+
+    // 함수 호출
+    swap(&a, &b);
+
+    printf("2\n");
+    printf("a = %d, b = %d\n", a, b);
+
+    return 0;
+}
