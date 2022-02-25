@@ -7,7 +7,7 @@ int sum(int a, int b) {
     int sum = a + b;
     return sum;
     // return (값);
-    // 1. 함수를 종료1월 31일 ~ 2월 2일 (연휴) - 휴강
+    // 1. 함수를 종료
     // 2. (값) 을 함수를 호출한 자리로 반환
 }
 

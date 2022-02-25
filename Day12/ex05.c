@@ -42,9 +42,5 @@ int main(void) {
     if( dptr != NULL )
         free(dptr);
     
-
-
-
-
     return 0;
 }
